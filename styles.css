@@ -19,6 +19,60 @@
     --family: 'Rubik', sans-serif;
 }
 
+*{
+    font-family: var(--family);
+    font-size: 16px;
+}
+
+#content{
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    width: 50%;
+}
+
 body {
     background-color: var(--lightGrey);
 }
+
+.card{
+    margin-bottom: 12px;
+}
+
+/* .card-body{
+    border: 2px dashed black;
+} */
+
+.pic, .name, .time, .reply{
+    display: block;
+}
+
+.pic, .name, .time{
+    margin-right: 16px;
+}
+
+.commentInfo{
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+
+.name, .reply, .atReply{
+    font-weight: bold;
+}
+
+.comment, .time{
+    color: var(--grayishBlue);
+}
+
+.pic{
+    height: 40px;
+    width: 40px;
+}
+
+.reply, .atReply{
+    color: var(--moderateBlue);
+}
+
+/* .replyContainer{
+    
+} */
+
